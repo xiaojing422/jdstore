@@ -30,8 +30,6 @@ class OrdersController < ApplicationController
     @product_lists = @order.product_lists
   end
 
-
-
   private
 
   def order_params
@@ -53,5 +51,6 @@ class OrdersController < ApplicationController
 
     redirect_to order_path(@order.token), notice: "使用微信成功完成付款"
   end
+
 
 end
