@@ -56,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'aasm'
 gem 'carrierwave-qiniu'
 gem 'qiniu-rs'
+gem 'figaro'
